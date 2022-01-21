@@ -1,5 +1,3 @@
-{{ config(schema='to_delete') }}
-
 with meeting_points as (
     SELECT
   CAST(id AS int) AS id,
