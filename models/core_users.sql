@@ -1,3 +1,5 @@
+{{ config(schema='to_delete') }}
+
 with users as (
     select cast(id as int) as id,
     email 
