@@ -19,6 +19,6 @@ with meeting_points as (
   zipcode,
   cast(gearbox_type as int) as gearbox_type
 FROM
-  `data-265818.airbyte_fivetran_test_migration.meeting_points`
+  {{source('airbyte_fivetran_test_migration', 'meeting_points')}}
 ) 
 select * from meeting_points

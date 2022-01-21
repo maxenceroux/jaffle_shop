@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: airbyte_fivetran_test_migration
+    database: data-265818
+    schema: airbyte_fivetran_test_migration
+    tables:
+      - name: meeting_points
