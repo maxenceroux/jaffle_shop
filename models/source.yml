@@ -6,3 +6,8 @@ sources:
     schema: airbyte_fivetran_test_migration
     tables:
       - name: meeting_points
+  - name: airbyte_metabase
+    database: data-265818
+    schema: airbyte_metabase
+    tables: 
+      - name: core_user
